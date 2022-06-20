@@ -1,0 +1,60 @@
+Who to Create-React And Run It?
+ 1) npx create-react-app my-app
+ 2) Folder name my-app is created
+ 3) Navigate in terminal into my-app folder -> cd my-app     
+ 4) npm start
+ 5) Stop React using CNRL+C
+
+///----------------------------
+If you've previously ever installed create-react-app globally using the command:
+npm install -g create-react-app
+Its recommend you uninstall the package using:
+npm uninstall -g create-react-app
+to ensure that npx always uses the latest version
+//------------------------------
+ What Folders Created in React?
+ public: index.html/other html /CSS/IMAGES/PDF/static resources
+ src: JS Code /React Components
+ ------------------------------------  
+What is React Component?
+ - function /Class
+ - return HTML UI
+ - JSX syntax that combine Standart HTML and JS together
+ - Combine state / logic / view
+ -------------------------------------
+ Component Basic Important Rules:
+ - Must start capital Letter
+ - Must return One Element Only
+ - <React.Fragment> enable multi Elements without wrap element with div for example
+ - Use (); for multiline 
+  return(
+       //HTML 
+    );
+ - Compont can be inside Other Component (Hirarchy)
+ - Best practice to put each component in seperate file as .js or.jsx extentions
+ - Use {} to move from rect HTML to JS Code  - JS And HTML combined
+---------------------------------------------
+Targil 01:
+ - Create Class Component Name It Countries
+ - Return List Of Countries
+ - USE UL LI;
+------------------------------------------
+HomeWork 01
+- Write all code we did in class from zero 
+   - start new react project 
+   - With all steps and code examples we did in class 
+   - dont Copy-paste - do code
+   - connect project to GITHUB
+   - Write Notes in sourcecode
+--------------------------------------
+HomeWork 02
+- Create method that return Object Array of Countries 
+- each country has 3 attributes
+  CountryCode,CountryName,Capital
+- Create Class Component that use the method and display the countries Objects as a bullet list as followed:
+  [234234] - Israel - Jerusalem
+  [234345] - France - Paris
+  ...
+//---------------------------------------
+
+ 
